@@ -32,4 +32,10 @@ def ScoreFinder(x,y,z):
 def Union(x,y):
     final_list = x+y
     return final_list
-
+def Intersection(x,y):
+    shared_list = []
+    for i in x:
+        if i in y:
+            shared_list.append(i)
+    return shared_list
+        
