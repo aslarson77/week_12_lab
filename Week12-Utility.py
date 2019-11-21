@@ -21,3 +21,11 @@ def FindWordCount(a,b):
         if i == b:
             sum_words = sum_words+1
     return sum_words
+def ScoreFinder(x,y,z):
+    score = 0
+    if z in x:
+        index = x.index(z)
+        score = y[index]
+        print('OUTPUT', z, 'got a score of', score)
+    else:
+        print('OUTPUT player not found')
