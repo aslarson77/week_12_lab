@@ -29,3 +29,7 @@ def ScoreFinder(x,y,z):
         print('OUTPUT', z, 'got a score of', score)
     else:
         print('OUTPUT player not found')
+def Union(x,y):
+    final_list = x+y
+    return final_list
+
