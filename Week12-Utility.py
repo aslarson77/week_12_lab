@@ -38,4 +38,9 @@ def Intersection(x,y):
         if i in y:
             shared_list.append(i)
     return shared_list
-        
+def NotIn(x,y):
+    unshared_list = []
+    for i in x:
+        if i not in y:
+            unshared_list.append(i)
+    return unshared_list
